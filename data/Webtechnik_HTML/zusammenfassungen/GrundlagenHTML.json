@@ -1,0 +1,22 @@
+{
+  "title": "Grundlagen HTML",
+  "date": "10.10.2025",
+  "summaryText": "HTML beschreibt die Struktur von Webseiten. Das Grundgerüst eines HTML-Dokuments besteht aus der Doctype-Deklaration, dem Wurzelelement <html> mit den Unterelementen <head> und <body>. Im <head> werden Informationen über die Seite wie Titel oder Verweise auf Stylesheets abgelegt. Der <body> enthält den sichtbaren Inhalt, z. B. Überschriften, Absätze, Listen, Tabellen, Bilder und Links. Wichtige Struktur- und Textformatierungselemente sind <h1> bis <h6> für Überschriften, <p> für Absätze, <ul> und <ol> für Listen, <strong> und <em> für Hervorhebungen sowie <a> für Hyperlinks. HTML verwendet Tags in spitzen Klammern zur Strukturierung. Um eine Seite korrekt darzustellen, wird HTML5 empfohlen.",
+  "glossar": [
+    { "term": "<!DOCTYPE html>", "definition": "Deklaration des Dokumententyps; informiert den Browser, dass es sich um ein HTML5-Dokument handelt." },
+    { "term": "<html>", "definition": "Das Wurzelelement, das die gesamte Webseite umschließt." },
+    { "term": "<head>", "definition": "Bereich für Metadaten und Einstellungen der Webseite, nicht sichtbar für Nutzer." },
+    { "term": "<body>", "definition": "Der sichtbare Bereich einer Webseite mit Inhalt, Text, Bildern und mehr." },
+    { "term": "<h1> bis <h6>", "definition": "Überschriftenelemente unterschiedlicher Ranghöhe, <h1> ist die wichtigste." },
+    { "term": "<p>", "definition": "Absatz-Element für Textabschnitte." },
+    { "term": "<ul>", "definition": "Ungeordnete Liste (Aufzählung mit Punkten)." },
+    { "term": "<ol>", "definition": "Geordnete Liste (nummerierte Aufzählung)." },
+    { "term": "<a>", "definition": "Hyperlink-Element, für Verlinkungen zu anderen Seiten oder Ressourcen." },
+    { "term": "<img>", "definition": "Element zur Einbindung von Bildern mit Alt-Text für Barrierefreiheit." },
+    { "term": "<strong>", "definition": "Kennzeichnet wichtigen oder fett dargestellten Text." },
+    { "term": "<em>", "definition": "Kennzeichnet betonten oder kursiv dargestellten Text." },
+    { "term": "<br />", "definition": "Erzwingt einen Zeilenumbruch im Text." },
+    { "term": "<div>", "definition": "Block-Element zur Gruppierung und Strukturierung von Inhalten." },
+    { "term": "<span>", "definition": "Inline-Element zur Gruppierung kleiner Bereiche." }
+  ]
+}

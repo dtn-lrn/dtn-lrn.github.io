@@ -1,0 +1,22 @@
+{
+  "title": "Grundlagen CSS",
+  "date": "13.10.2025",
+  "summaryText": "CSS ermöglicht die Gestaltung von Webseiten durch Regeln, die aus Selektoren und Deklarationen bestehen. Ein Selektor wählt HTML-Elemente aus, die formatiert werden sollen. Die Deklaration enthält Eigenschaften und deren Werte, z.B. Schriftgröße, Farbe oder Rahmen. CSS-Regeln sind in geschweiften Klammern eingeschlossen und Deklarationen werden durch Semikolons getrennt. Es gibt verschiedene Darstellungsarten wie inline, block oder flow-root. Für Textdekorationen kann man Linienart, Farbe, Stil und Dicke einstellen, z.B. unterstrichen oder durchgestrichen. Schriftarten, Stil und Gewicht lassen sich über font-Properties definieren. Die Ausrichtung erfolgt über text-align oder vertical-align. Listen können verschiedene Stilarten haben, z.B. Kreis oder Quadrat. Rahmen werden durch Breite, Stil und Farbe bestimmt. Hintergrundfarben und -bilder sind ebenfalls definierbar. Größe (width, height), Abstände (margin, padding) und Positionierung (static, relative, absolute, fixed) sind wichtige Layout-Eigenschaften. Pseudoklassen (wie :hover, :focus) und Pseudoelemente (::before, ::after) ermöglichen erweiterte Styling-Effekte.",
+  "glossar": [
+    {"term": "Selektor", "definition": "Bestimmt, welche HTML-Elemente von CSS-Regeln betroffen sind."},
+    {"term": "Deklaration", "definition": "Eigenschaft und Wert, die das Aussehen eines Elements beeinflussen, z.B. 'font-size: 12px'."},
+    {"term": "display", "definition": "Definiert die Darstellungsart eines Elements, z.B. inline, block oder flow-root."},
+    {"term": "text-decoration", "definition": "Eigenschaft für Textdekorationen wie Unterstreichungen oder Durchstreichungen."},
+    {"term": "font-style", "definition": "Bestimmt die Schriftart-Stilvarianten z.B. normal oder italic."},
+    {"term": "font-weight", "definition": "Legt das Gewicht (Dicke) einer Schrift fest, z.B. normal, bold."},
+    {"term": "text-align", "definition": "Definiert die horizontale Ausrichtung von Text: left, center, right oder justify."},
+    {"term": "list-style-type", "definition": "Bestimmt die Art der Aufzählungspunkte in Listen (z.B. Kreis, Quadrat)."},
+    {"term": "border", "definition": "Eigenschaft, um Rahmen mit Breite, Stil und Farbe zu definieren."},
+    {"term": "background-color", "definition": "Setzt die Hintergrundfarbe eines Elements."},
+    {"term": "width/height", "definition": "Legt Breite und Höhe eines Elements fest."},
+    {"term": "margin/padding", "definition": "Außen- und Innenabstand eines Elements."},
+    {"term": "position", "definition": "Bestimmt die Positionierungsart (static, relative, absolute, fixed)."},
+    {"term": "Pseudoklasse", "definition": "Spezielle Zustände von Elementen für CSS, z.B. :hover bei Mauszeiger."},
+    {"term": "Pseudoelement", "definition": "Virtuelle Elemente zur Gestaltung, z.B. ::before oder ::after."}
+  ]
+}
