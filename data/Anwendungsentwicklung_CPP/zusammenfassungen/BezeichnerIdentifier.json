@@ -1,0 +1,12 @@
+{
+  "title": "Bezeichner & Identifier",
+  "date": "30.09.2025",
+  "summaryText": "In C++ beginnen Bezeichner mit einem Buchstaben, Unterstrich (_) oder universellen Zeichennamen, gefolgt von beliebig vielen Buchstaben, Ziffern oder Unterstrichen. Groß- und Kleinbuchstaben werden unterschieden. Schlüsselwörter (Keywords) sind reservierte Begriffe, die nicht als Bezeichner verwendet werden dürfen, z.B. int, double, class, return usw. Der Compiler erkennt Trennzeichen wie Leerzeichen, Tabulator oder Zeilenwechsel zur Abgrenzung von Syntaxelementen.",
+  "glossar": [
+    {"term": "Bezeichner (Identifier)", "definition": "Name für Variablen, Funktionen oder Objekte in C++. Beginnend mit Buchstabe, Unterstrich oder universellem Zeichen, keine Umlaute."},
+    {"term": "Schlüsselworte (Keywords)", "definition": "Reservierte Wörter im C++-Compiler mit spezieller Bedeutung, z.B. int, return, class. Dürfen nicht als Bezeichner genutzt werden."},
+    {"term": "Groß- und Kleinschreibung", "definition": "C++ unterscheidet zwischen großen und kleinen Buchstaben, z.B. var und Var sind unterschiedlich."},
+    {"term": "Trennzeichen (Delimiter)", "definition": "Leerzeichen, Tabulator und Zeilenumbruch, die den Compiler anfang und Ende von Elementen erkennen lassen."},
+    {"term": "Ungültige Bezeichner", "definition": "Zum Beispiel dürfen Bezeichner nicht mit einer Ziffer beginnen (z.B. '1double'), keine Leerzeichen oder Sonderzeichen enthalten."}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Elementare Datentypen",
+  "date": "30.09.2025",
+  "summaryText": "Elementare Datentypen sind fest in C++ definiert und bilden die Basis für Variablenwerte. Es gibt Typen für ganze Zahlen, reelle Zahlen, Zeichen und boolesche Werte. Ganzzahlige Typen wie char, short, int und ihre vorzeichenlosen Varianten unterscheiden sich in Speicherbedarf und Wertebereich. Gleitkommatypen float und double dienen zur Darstellung reeller Zahlen mit unterschiedlicher Genauigkeit. Zeichen werden als Zahlenwerte nach ASCII bzw. anderen Codes repräsentiert. Der Datentyp bool kann zwei Werte annehmen: true oder false. Automatische Typkonvertierungen werden vom Compiler durchgeführt, um Werte zwischen kompatiblen Typen zu konvertieren. Konstanten können im Dezimal-, Oktal- oder Hexadezimalsystem angegeben werden, je nachdem wie sie formuliert sind.",
+  "glossar": [
+    {"term": "float", "definition": "Datentyp für reelle Zahlen mit ca. 6-stelliger Genauigkeit, 4 Byte Speicher."},
+    {"term": "double", "definition": "Datentyp für reelle Zahlen mit ca. 10-stelliger Genauigkeit, 8 Byte Speicher."},
+    {"term": "char", "definition": "Datentyp für einzelne Zeichen, 1 Byte, auch als kleine Ganzzahl nutzbar."},
+    {"term": "signed char", "definition": "Vorzeichenbehafteter 1-Byte-Ganzzahltyp, Werte von -128 bis 127."},
+    {"term": "unsigned char", "definition": "Vorzeichenloser 1-Byte-Ganzzahltyp, Werte von 0 bis 255."},
+    {"term": "wchar_t", "definition": "Datentyp für 16-Bit-Zeichensätze, Werte von 0 bis 65535."},
+    {"term": "short", "definition": "Ganzzahliger Datentyp mit 2 Byte Speicher, kleiner Wertebereich."},
+    {"term": "unsigned short", "definition": "Vorzeichenloser kurzer Datentyp mit 2 Byte Speicher."},
+    {"term": "int", "definition": "Standard-Ganzzahliger Datentyp, meist 4 oder 2 Byte groß, je nach System."},
+    {"term": "unsigned int", "definition": "Vorzeichenloser int, nur positive Werte."},
+    {"term": "bool", "definition": "Datentyp für Wahrheitswerte: true oder false."},
+    {"term": "void", "definition": "Repräsentiert eine leere Menge, kein Wert."},
+    {"term": "Zeichen-Konstante", "definition": "Im C++ mit einfachen Anführungszeichen eingeschlossen, z.B. 'a', steht für ein einzelnes Zeichen."},
+    {"term": "Escape-Sequenzen", "definition": "Spezielle Zeichenfolgen, z.B. \\n für Zeilenumbruch oder \\t für Tabulator."},
+    {"term": "Automatische Typkonvertierung", "definition": "Vom Compiler durchgeführte Umwandlung zwischen kompatiblen Datentypen, z.B. int zu float."},
+    {"term": "Zahlensysteme", "definition": "Dezimal, Oktal (mit führender 0) und Hexadezimal (mit 0x oder 0X) zur Darstellung numerischer Konstanten."}
+  ]
+}

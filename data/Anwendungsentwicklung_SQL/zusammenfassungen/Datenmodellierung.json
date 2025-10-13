@@ -1,0 +1,16 @@
+{
+  "title": "Datenmodellierung",
+  "date": "05.10.2025",
+  "summaryText": "Die Struktur großer Datenbanken muss sorgfältig geplant werden, da Fehler später schwer korrigierbar sind. Die Datenmodellierung erfolgt durch Normalisierung, bei der Daten in sinnvolle atomare Einheiten zerlegt werden. Praktisch relevant sind vor allem die ersten drei Normalformen. Die erste Normalform bedeutet Datenzerlegung in unteilbare Einheiten. Die zweite Normalform stellt mehrere Tabellen bereit, wobei alle Nicht-Schlüsselattribute voll funktional vom Primärschlüssel abhängen müssen. Die dritte Normalform stellt sicher, dass keine Nicht-Schlüsselattribute transitiv vom Primärschlüssel abhängen. Wichtig sind Primärschlüssel zur eindeutigen Identifikation und Fremdschlüssel zur Verknüpfung von Tabellen. Beziehungen wie 1:n werden in relationalen Datenbanken mit Zuordnungstabellen abgebildet. Das relationale Modell von Edgar F. Codd bildet die Grundlage moderner Datenbanksysteme.",
+  "glossar": [
+    {"term": "Normalisierung", "definition": "Strukturierung der Daten zur Vermeidung von Redundanzen und Inkonsistenzen."},
+    {"term": "1. Normalform (1NF)", "definition": "Tabelle enthält nur atomare, unteilbare Werte."},
+    {"term": "2. Normalform (2NF)", "definition": "Erfüllt 1NF und alle Nicht-Schlüsselattribute sind voll funktional vom Primärschlüssel abhängig."},
+    {"term": "3. Normalform (3NF)", "definition": "Erfüllt 2NF und keine Nicht-Schlüsselattribute hängen transitiv vom Primärschlüssel ab."},
+    {"term": "Primärschlüssel", "definition": "Eindeutiger Bezeichner eines Datensatzes in einer Tabelle."},
+    {"term": "Fremdschlüssel", "definition": "Verweis in einer Tabelle auf einen Primärschlüssel einer anderen Tabelle."},
+    {"term": "1:n Beziehung", "definition": "Ein Datensatz ist mit mehreren Datensätzen einer anderen Tabelle verknüpft."},
+    {"term": "Zuordnungstabelle", "definition": "Tabelle zur Darstellung von n:m Beziehungen oder 1:n Beziehungen ohne eigenen Primärschlüssel."},
+    {"term": "Relationales Modell", "definition": "Modell für Datenbanken basierend auf Tabellen mit Schlüsselbeziehungen, entwickelt von Edgar F. Codd."}
+  ]
+}
