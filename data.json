@@ -180,13 +180,102 @@
         
       ],
       "materials": [
-        
+        {
+          "title": "SQL Befehlsglossar",
+          "date": "13. Oktober 2025",
+          "filename": "lernmaterial/SQL/SQL-Befehlsglossar.pdf"
+        }
       ]
     },
     {
       "name": "Anwendungsentwicklung SQL",
       "topics": [
-        
+        {
+        "name": "Datenmodellierung",
+        "date": "05. Oktober 2025",
+        "questions": [
+            {
+              "question": "Warum muss die Struktur großer Datenbanken bewusst geplant werden?",
+              "options": [
+                "Fehler lassen sich später oft schwer oder gar nicht ausgleichen",
+                "Damit die Daten bunt aussehen",
+                "Weil man immer einzelne Tabellen benutzt",
+                "Weil das Internet es verlangt"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Was versteht man unter Normalisierung bei Datenbanken?",
+              "options": [
+                "Das Zerlegen von Daten in atomare, sinnvolle Einheiten",
+                "Alle Daten in einer Tabelle speichern",
+                "Bildschirmeinstellungen anpassen",
+                "Das Verschlüsseln von Daten"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Welche Normalformen sind in der Praxis meist wichtig?",
+              "options": [
+                "Alle neun Normalformen",
+                "Die ersten drei Normalformen",
+                "Nur die erste Normalform",
+                "Keine Normalformen"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Aussage beschreibt die erste Normalform (1NF)?",
+              "options": [
+                "Alle Wertebereiche der Merkmale sind atomar",
+                "Daten sind verschlüsselt",
+                "Funktionen laufen korrekt",
+                "Daten sind in einer Excel-Tabelle gespeichert"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Was ist ein Primärschlüssel (Primary Key) in einer Datenbank?",
+              "options": [
+                "Ein Schlüssel, der sich NIE wiederholt und ein Datensatz eindeutig identifiziert",
+                "Das Passwort für den Datenbankzugriff",
+                "Eine Spalte mit Zahlen größer als 100",
+                "Eine Tabelle ohne Daten"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Was ist ein Fremdschlüssel (Foreign Key)?",
+              "options": [
+                "Ein Schlüssel, der auf eine andere Tabelle verweist und sich wiederholen kann",
+                "Das Passwort des Systemadministrators",
+                "Eine leere Tabelle",
+                "Ein spezieller Zähler"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Wie nennt man eine 1:n Beziehung zwischen zwei Tabellen?",
+              "options": [
+                "Eine Beziehung, bei der einer auf viele andere verweist",
+                "Eine Beziehung mit mehreren Primärschlüsseln",
+                "Eine Doppelbeziehung",
+                "Keine Beziehung"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Wie sieht eine chaotische Tabelle aus, die nicht normalisiert ist?",
+              "options": [
+                "Viele Farben als neue Spalten pro Datensatz, statt Zeilen",
+                "Alle Daten in einer einzigen Spalte",
+                "Eine perfekt strukturierte Tabelle",
+                "Eine Tabelle ohne Spalten"
+              ],
+              "correct": 0
+            }
+          ]
+        }
       ],
       "materials": [
         
