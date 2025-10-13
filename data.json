@@ -241,6 +241,62 @@
       "name": "Netzwerktechnik",
       "topics": [
         {
+          "name": "Vermittlungstechnik",
+          "date": "5. Oktober 2025",
+          "questions": [
+            {
+              "question": "Was ist Vermittlung in einem Kommunikationssystem?",
+              "options": [
+                "Ein Übertragungsweg zwischen zwei Teilnehmern wird hergestellt",
+                "Ein Dienst zum Speichern von Daten",
+                "Ein spezielles Kabel",
+                "Eine Tastatur"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Was ist Leitungsvermittlung?",
+              "options": [
+                "Geteilte Nutzung eines Kanals",
+                "Eine Übertragung von Daten in Paketen",
+                "Eine feste Leitung zwischen Teilnehmern während der Verbindung",
+                "Eine bewegliche Telefonleitung"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Was ist Paketvermittlung?",
+              "options": [
+                "Speicherung und Weiterleitung von Datenpaketen auf unterschiedlichen Wegen",
+                "Eine Multimedia-Kommunikation",
+                "Eine feste Verbindung von Geräten",
+                "Nur WLAN-Netzwerke"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Welche Vermittlungstechnik wird im Internet bevorzugt?",
+              "options": [
+                "Leitungsvermittlung",
+                "Paketvermittlung",
+                "Telefonnetz",
+                "Glasfaserkabel"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was bedeutet Store-and-Forward?",
+              "options": [
+                "Daten werden direkt vom Sender zum Empfänger gesendet",
+                "Daten werden zwischenzeitlich zwischengespeichert bis Weiterleitung möglich",
+                "Eine Art von WLAN",
+                "Eine Datei"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
           "name": "Grundlagen",
           "date": "16. September 2025",
           "questions": [
@@ -407,62 +463,6 @@
                 "Dateigröße durch Zeit, die berechnet wurde",
                 "Kilometer pro Stunde mal Dateigröße",
                 "Kilometer mal Reitgeschwindigkeit"
-              ],
-              "correct": 1
-            }
-          ]
-        },
-        {
-          "name": "Vermittlungstechnik",
-          "date": "5. Oktober 2025",
-          "questions": [
-            {
-              "question": "Was ist Vermittlung in einem Kommunikationssystem?",
-              "options": [
-                "Ein Übertragungsweg zwischen zwei Teilnehmern wird hergestellt",
-                "Ein Dienst zum Speichern von Daten",
-                "Ein spezielles Kabel",
-                "Eine Tastatur"
-              ],
-              "correct": 0
-            },
-            {
-              "question": "Was ist Leitungsvermittlung?",
-              "options": [
-                "Geteilte Nutzung eines Kanals",
-                "Eine Übertragung von Daten in Paketen",
-                "Eine feste Leitung zwischen Teilnehmern während der Verbindung",
-                "Eine bewegliche Telefonleitung"
-              ],
-              "correct": 2
-            },
-            {
-              "question": "Was ist Paketvermittlung?",
-              "options": [
-                "Speicherung und Weiterleitung von Datenpaketen auf unterschiedlichen Wegen",
-                "Eine Multimedia-Kommunikation",
-                "Eine feste Verbindung von Geräten",
-                "Nur WLAN-Netzwerke"
-              ],
-              "correct": 0
-            },
-            {
-              "question": "Welche Vermittlungstechnik wird im Internet bevorzugt?",
-              "options": [
-                "Leitungsvermittlung",
-                "Paketvermittlung",
-                "Telefonnetz",
-                "Glasfaserkabel"
-              ],
-              "correct": 1
-            },
-            {
-              "question": "Was bedeutet Store-and-Forward?",
-              "options": [
-                "Daten werden direkt vom Sender zum Empfänger gesendet",
-                "Daten werden zwischenzeitlich zwischengespeichert bis Weiterleitung möglich",
-                "Eine Art von WLAN",
-                "Eine Datei"
               ],
               "correct": 1
             }

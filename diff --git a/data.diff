@@ -1,0 +1,241 @@
+diff --git a/data.json b/data.json
+--- data.json
++++ data.json
+@@ -239,9 +239,236 @@
+     },
+     {
+       "name": "Netzwerktechnik",
+       "topics": [
+-        
++        {
++          "name": "Grundlagen",
++          "date": "16. September 2025",
++          "questions": [
++            {
++              "question": "Was bezeichnet der Begriff 'Netzwerk' in der Informationstechnologie?",
++              "options": [
++                "Verbindung von mindestens zwei Computersystemen über ein Übertragungsmedium",
++                "Nur eine WLAN-Verbindung",
++                "Die Nutzung eines einzelnen Computers",
++                "Ein Internet-Browser"
++              ],
++              "correct": 0
++            },
++            {
++              "question": "Wie nennt man ein Netzwerk aus zwei gleichberechtigten Computern?",
++              "options": [
++                "Server-Client-Netzwerk",
++                "Peer-to-Peer-Netzwerk",
++                "Virtual Private Network",
++                "Cloud-Netzwerk"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Welche Netzwerktopologie hat Geräte, die über einen zentralen Host verbunden sind?",
++              "options": [
++                "Bus-Topologie",
++                "Ring-Topologie",
++                "Stern-Topologie",
++                "Linien-Topologie"
++              ],
++              "correct": 2
++            },
++            {
++              "question": "Was passiert bei einem Ausfall eines Hosts in einem Ringnetzwerk?",
++              "options": [
++                "Das gesamte Netzwerk fällt aus",
++                "Das Netzwerk kann als Bus weiterbetrieben werden",
++                "Der Host wird automatisch ersetzt",
++                "Der Datenverkehr wird schneller"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Was bedeutet der Begriff 'Host' im Netzwerkbereich?",
++              "options": [
++                "Ein Computersystem, das Teil eines Netzwerks ist",
++                "Ein spezielles Kabel",
++                "Ein Router",
++                "Ein Internetanbieter"
++              ],
++              "correct": 0
++            },
++            {
++              "question": "Was beschreibt das 'Internet of Things' (IoT)?",
++              "options": [
++                "Große Serverfarmen",
++                "Geräte mit begrenzter Hardware, die vernetzt sind",
++                "Nur Smartphones",
++                "Nur Laptops"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Was ist ein PAN (Personal Area Network)?",
++              "options": [
++                "Ein weltweites Netzwerk",
++                "Ein kleines Netzwerk von persönlichen Geräten wie Smartphones und Tablets",
++                "Das Internet",
++                "Ein Netzwerk mit vielen Servern"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Was ist die gängige Übertragungstechnik eines LAN?",
++              "options": [
++                "Bluetooth",
++                "Ethernet",
++                "Drahtloses USB",
++                "Firewire"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Was ist ein Wide Area Network (WAN)?",
++              "options": [
++                "Ein Netzwerk über großes geografisches Gebiet",
++                "Ein einzelner Computer",
++                "Nur WLAN-Verbindungen",
++                "Ein Heimnetzwerk"
++              ],
++              "correct": 0
++            },
++            {
++              "question": "Welche Netzwerktopologie ist keine gängige Topologie?",
++              "options": [
++                "Stern",
++                "Bus",
++                "Ring",
++                "Wolke"
++              ],
++              "correct": 3
++            }
++          ]
++        },
++        {
++          "name": "Datenübertragung",
++          "date": "21. September 2025",
++          "questions": [
++            {
++              "question": "Was versteht man unter einem Bit?",
++              "options": [
++                "Die größte Datenmenge",
++                "Die kleinste Informationseinheit mit Wert 0 oder 1",
++                "Ein spezieller Kabeltyp",
++                "Ein Datenübertragungsprotokoll"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Mit welcher Technik werden Daten in Netzwerken meist übertragen?",
++              "options": [
++                "Bluetooth",
++                "Lichtimpulse und elektrische Signale",
++                "Soundwellen",
++                "Magnetische Induktion"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Was beschreibt die Bandbreite in der Netzwerktechnik?",
++              "options": [
++                "Die maximale Datenmenge, die in einer Sekunde übertragen werden kann",
++                "Die Zeit, die ein Paket für den Weg braucht",
++                "Die Anzahl der Geräte im Netzwerk",
++                "Die Größe des Netzwerks in Kilometern"
++              ],
++              "correct": 0
++            },
++            {
++              "question": "Was bezeichnet die Latenzzeit?",
++              "options": [
++                "Die Geschwindigkeit der Datenübertragung",
++                "Die Verzögerung bei der Übertragung von Daten von Punkt zu Punkt",
++                "Die Dauer einer Datenaufnahme",
++                "Die Menge an übertragenen Daten"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Wie lange dauert die Übertragung einer 100 MB Datei mit einer ISDN-Verbindung (128 Kbit/s)?",
++              "options": [
++                "Ca. 10 Sekunden",
++                "Ca. 2 Stunden",
++                "Ca. 17 Minuten",
++                "Ca. 11 Stunden"
++              ],
++              "correct": 3
++            },
++            {
++              "question": "Wie kann man die Übertragungsgeschwindigkeit bei einem Reiter, der eine DVD transportiert, berechnen?",
++              "options": [
++                "Videoauflösung durch Pferdegeschwindigkeit",
++                "Dateigröße durch Zeit, die berechnet wurde",
++                "Kilometer pro Stunde mal Dateigröße",
++                "Kilometer mal Reitgeschwindigkeit"
++              ],
++              "correct": 1
++            }
++          ]
++        },
++        {
++          "name": "Vermittlungstechnik",
++          "date": "5. Oktober 2025",
++          "questions": [
++            {
++              "question": "Was ist Vermittlung in einem Kommunikationssystem?",
++              "options": [
++                "Ein Übertragungsweg zwischen zwei Teilnehmern wird hergestellt",
++                "Ein Dienst zum Speichern von Daten",
++                "Ein spezielles Kabel",
++                "Eine Tastatur"
++              ],
++              "correct": 0
++            },
++            {
++              "question": "Was ist Leitungsvermittlung?",
++              "options": [
++                "Geteilte Nutzung eines Kanals",
++                "Eine Übertragung von Daten in Paketen",
++                "Eine feste Leitung zwischen Teilnehmern während der Verbindung",
++                "Eine bewegliche Telefonleitung"
++              ],
++              "correct": 2
++            },
++            {
++              "question": "Was ist Paketvermittlung?",
++              "options": [
++                "Speicherung und Weiterleitung von Datenpaketen auf unterschiedlichen Wegen",
++                "Eine Multimedia-Kommunikation",
++                "Eine feste Verbindung von Geräten",
++                "Nur WLAN-Netzwerke"
++              ],
++              "correct": 0
++            },
++            {
++              "question": "Welche Vermittlungstechnik wird im Internet bevorzugt?",
++              "options": [
++                "Leitungsvermittlung",
++                "Paketvermittlung",
++                "Telefonnetz",
++                "Glasfaserkabel"
++              ],
++              "correct": 1
++            },
++            {
++              "question": "Was bedeutet Store-and-Forward?",
++              "options": [
++                "Daten werden direkt vom Sender zum Empfänger gesendet",
++                "Daten werden zwischenzeitlich zwischengespeichert bis Weiterleitung möglich",
++                "Eine Art von WLAN",
++                "Eine Datei"
++              ],
++              "correct": 1
++            }
++          ]
++        }
+       ],
+       "materials": [
+         
+       ]
