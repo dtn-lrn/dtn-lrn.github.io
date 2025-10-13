@@ -2,7 +2,7 @@ let appData = null;
 const app = document.getElementById('app');
 
 const subjectIcons = [
-  "🟧","💻","🗄️","📖","➗","🖥️","🇬🇧","🏛️","🌐","🧮"
+  "🟧","💻","🗄️","🖥️","📖","➗","🌐","🏛️🇬🇧","🏛️","🧮"
 ];
 
 const ACCESS_COOKIE = 'bfsicode';
