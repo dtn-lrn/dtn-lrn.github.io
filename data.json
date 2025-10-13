@@ -180,11 +180,6 @@
         
       ],
       "materials": [
-        {
-          "title": "SQL Befehlsglossar",
-          "date": "13. Oktober 2025",
-          "filename": "lernmaterial/SQL/SQL-Befehlsglossar.pdf"
-        }
       ]
     },
     {
@@ -278,7 +273,11 @@
         }
       ],
       "materials": [
-        
+        {
+          "title": "SQL Befehlsglossar",
+          "date": "13. Oktober 2025",
+          "filename": "lernmaterial/SQL/SQL-Befehlsglossar.pdf"
+        }
       ]
     },
     {
