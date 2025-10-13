@@ -177,7 +177,7 @@
     {
       "name": "Anwendungsentwicklung C++",
       "topics": [
-        
+
       ],
       "materials": [
       ]
@@ -192,7 +192,7 @@
             {
               "question": "Warum muss die Struktur großer Datenbanken bewusst geplant werden?",
               "options": [
-                "Fehler lassen sich später oft schwer oder gar nicht ausgleichen",
+                "Fehler lassen sich später oft schwer oder garnicht ausgleichen",
                 "Damit die Daten bunt aussehen",
                 "Weil man immer einzelne Tabellen benutzt",
                 "Weil das Internet es verlangt"
