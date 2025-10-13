@@ -1,0 +1,259 @@
+{
+  "subjects": [
+    {
+      "name": "Webtechnik (HTML)",
+      "topics": [
+        {
+      "name": "CSS Grundlagen",
+      "date": "13. Oktober 2025",
+      "questions": [
+            {
+              "question": "Wie ist die Grundstruktur einer CSS-Anweisung aufgebaut?",
+              "options": [
+                "Selektor { Eigenschaft: Wert; }",
+                "<div style='Eigenschaft: Wert;'>Text</div>",
+                "Eigenschaft: Wert;",
+                "<css Eigenschaft='Wert'>"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Wie kommentiert man in CSS?",
+              "options": [
+                "// das ist ein Kommentar",
+                "/* das ist ein Kommentar */",
+                "# das ist ein Kommentar",
+                "<!-- das ist ein Kommentar -->"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Darstellungsart macht ein Element zu einem Block-Element?",
+              "options": [
+                "display: flow-root;",
+                "display: block;",
+                "display: inline;",
+                "display: none;"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wie erzeugt man eine durchgestrichene Schrift?",
+              "options": [
+                "text-decoration-line: overline;",
+                "text-decoration-line: underline;",
+                "text-decoration-line: line-through;",
+                "text-decoration-line: blink;"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Welcher Wert macht die Schrift kursiv?",
+              "options": [
+                "font-style: italic;",
+                "font-weight: bold;",
+                "font-family: italic;",
+                "font-variant: small-caps;"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Welche Eigenschaft und Wert machen die Schrift fett?",
+              "options": [
+                "font-style: bold;",
+                "font-weight: bold;",
+                "font-size: bold;",
+                "font-family: bold;"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welcher CSS-Befehl setzt die Hintergrundfarbe eines Elements?",
+              "options": [
+                "background-color: red;",
+                "color: red;",
+                "border-color: red;",
+                "font-color: red;"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Welche Eigenschaft formt die Ecken eines Elements rund?",
+              "options": [
+                "border-style",
+                "border-radius",
+                "border-width",
+                "border-color"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was bedeutet margin im CSS?",
+              "options": [
+                "Innenabstand eines Elements",
+                "Außenabstand (Abstand zu anderen Elementen)",
+                "Rahmenlinie (border)",
+                "Textausrichtung"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wie adressiert man per Selektor alle Links, die noch nicht besucht wurden?",
+              "options": [
+                "a:visited",
+                "a:active",
+                "a:link",
+                "a:hover"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "name": "HTML Grundlagen",
+          "date": "10. Oktober 2025",
+          "questions": [
+            {
+              "question": "Welches HTML-Element wird verwendet, um eine Überschrift der höchsten Ebene zu erstellen?",
+              "options": ["<title>", "<h1>", "<header>", "<heading>"],
+              "correct": 1
+            },
+            {
+              "question": "Welches HTML-Element wird benutzt, um einen Absatz zu markieren?",
+              "options": ["<paragraph>", "<text>", "<p>", "<line>"],
+              "correct": 2
+            },
+            {
+              "question": "Welches HTML-Tag wird verwendet, um einen Link zu erstellen?",
+              "options": ["<a>", "<link>", "<href>", "<url>"],
+              "correct": 0
+            },
+            {
+              "question": "Welches Attribut gibt die Zieladresse eines Links an?",
+              "options": ["src", "href", "link", "url"],
+              "correct": 1
+            },
+            {
+              "question": "Welche HTML-Tags werden zur Darstellung eines Bildes benutzt?",
+              "options": ["<img>", "<pic>", "<image>", "<src>"],
+              "correct": 0
+            },
+            {
+              "question": "Welches Attribut wird verwendet, um Alternativtext für ein Bild bereitzustellen?",
+              "options": ["src", "alt", "title", "description"],
+              "correct": 1
+            },
+            {
+              "question": "Wie beginnt ein HTML-Dokument?",
+              "options": ["<head>", "<html>", "<start>", "<body>"],
+              "correct": 1
+            },
+            {
+              "question": "Welches Element umschließt den sichtbaren Inhalt einer Webseite?",
+              "options": ["<body>", "<main>", "<page>", "<content>"],
+              "correct": 0
+            },
+            {
+              "question": "Welches Tag wird für einen Zeilenumbruch benutzt?",
+              "options": ["<break>", "<br>", "<lb>", "<line>"],
+              "correct": 1
+            },
+            {
+              "question": "Wie wird ein HTML-Kommentar geschrieben?",
+              "options": ["<comment>Dies ist ein Kommentar</comment>", "// Dies ist ein Kommentar", "<!-- Dies ist ein Kommentar -->", "# Dies ist ein Kommentar"],
+              "correct": 2
+            }
+          ] 
+        }
+      ],
+      "materials": [
+        {
+          "title": "HTML Grundlagen PDF (w3schools)",
+          "date": "13. Oktober 2025",
+          "filename": "lernmaterial/Webtechnik/HTML_Basic_W3Schools.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Anwendungsentwicklung C++",
+      "topics": [
+        
+      ],
+      "materials": [
+        
+      ]
+    },
+    {
+      "name": "Anwendungsentwicklung Datenbanken",
+      "topics": [
+        
+      ],
+      "materials": [
+        
+      ]
+    },
+    {
+      "name": "Deutsch",
+      "topics": [
+        
+      ],
+      "materials": [
+       
+      ]
+    },
+    {
+      "name": "Mathematik",
+      "topics": [
+        
+      ],
+      "materials": [
+        
+      ]
+    },
+    {
+      "name": "Betriebssysteme",
+      "topics": [
+        
+      ],
+      "materials": [
+        
+      ]
+    },
+    {
+      "name": "Englisch",
+      "topics": [
+        
+      ],
+      "materials": [
+        
+      ]
+    },
+    {
+      "name": "Politik und Gesellschaft",
+      "topics": [
+        
+      ],
+      "materials": [
+        
+      ]
+    },
+    {
+      "name": "Netzwerktechnik",
+      "topics": [
+        
+      ],
+      "materials": [
+        
+      ]
+    },
+    {
+      "name": "Computersysteme",
+      "topics": [
+        
+      ],
+      "materials": [
+       
+      ]
+    }
+  ]
+}

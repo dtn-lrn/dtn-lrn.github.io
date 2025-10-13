@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>BFSI Lernplattform</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<canvas id="bgCanvas"></canvas>
+<div id="loginOverlay" class="overlay-login">
+  <div class="login-box">
+    <h2>Login</h2>
+    <input type="password" id="loginCodeInput" placeholder="Code eingeben" />
+    <button id="loginBtn">Einloggen</button>
+    <div id="loginError"></div>
+  </div>
+</div>
+<header>
+<h1>BFSI Lernplattform</h1>
+<div class="header-underline"></div>
+</header>
+<main id="app"></main>
+<footer id="mainFooter"></footer>
+<script src="bg.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
