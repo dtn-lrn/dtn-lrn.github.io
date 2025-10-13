@@ -1,0 +1,51 @@
+ {
+          "name": "Elementare Datentypen",
+          "date": "30. September 2025",
+          "questions": [
+            {
+              "question": "Welche Datentypen dienen zur Darstellung von reellen Zahlen in C++?",
+              "options": [
+                "int, short",
+                "float, double",
+                "char, bool"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was macht die automatische Typ-Konvertierung in C++?",
+              "options": [
+                "Konvertiert Werte kleiner Typen in größere Datentypen",
+                "Erzeugt Zeichenketten",
+                "Findet nicht statt"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Wie werden Zeichen im Datentyp char intern gespeichert?",
+              "options": [
+                "Als Buchstaben",
+                "Als Zahlen im ASCII-Code",
+                "Als Textdatei"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Werte kann unsigned int speichern?",
+              "options": [
+                "Nur negative Zahlen",
+                "Nur positive Zahlen",
+                "Positive und negative Zahlen"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was bezeichnet die Escape-Sequenz \"\\n\" in C++?",
+              "options": [
+                "Zeilenumbruch",
+                "Buchstabe 'n'",
+                "Syntaxfehler"
+              ],
+              "correct": 0
+            }
+          ]
+        }

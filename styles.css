@@ -425,6 +425,22 @@ main#app {
   font-size:.98em;
 }
 
+.glossar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.glossar-item {
+  padding: 0.6em 0;
+  border-bottom: 1px solid rgba(183, 207, 246, 0.1);
+  line-height: 1.5;
+}
+
+.glossar-item:last-child {
+  border-bottom: none;
+}
+
 footer {
   text-align: left;
   color: #565d77;

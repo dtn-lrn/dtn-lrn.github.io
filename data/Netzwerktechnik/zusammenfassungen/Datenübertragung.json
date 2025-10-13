@@ -1,0 +1,19 @@
+{
+  "title": "Datenübertragung",
+  "date": "21.09.2025",
+  "summaryText": "Daten sind durch Zahlen dargestellte Informationen und werden in der Informatik als digitale Repräsentationen genutzt. Computer arbeiten ausschließlich mit binären Zahlen (Bits), wobei ein Bit die kleinste Informationseinheit ist und einen Wert von 0 oder 1 annehmen kann. Acht Bit bilden zusammen ein Byte. Die Übertragung der Bits erfolgt je nach Medium als elektrische Signale (Kupferkabel), Lichtimpulse (Glasfaserkabel) oder Funkwellen (drahtlos). Die Übertragungsgeschwindigkeit wird durch drei Hauptparameter bestimmt: Bandbreite (maximale mögliche Datenmenge pro Sekunde), Durchsatz (tatsächlich übertragene Datenmenge pro Zeit, oft durch Störungen beeinflusst) und Latenz (Übertragungsdauer von Punkt zu Punkt). Für verschiedene Zugangstechnologien wie ISDN, DSL, VDSL und Glasfaser unterscheiden sich die Werte für Download und Upload oft deutlich. Zur Übersetzung digitaler Daten in lesbare Zeichen wird z. B. der ASCII-Code verwendet.",
+  "glossar": [
+    { "term": "Daten", "definition": "Informationen, die durch Zahlen repräsentiert und von Computern verarbeitet werden können." },
+    { "term": "Bit", "definition": "Kleinste Informationseinheit in der Informatik, kann den Wert 0 oder 1 haben." },
+    { "term": "Byte", "definition": "Zusammenhängende Gruppe von 8 Bit." },
+    { "term": "Binärcode", "definition": "Digitaler Code aus den Ziffern 0 und 1, mit dem Computer arbeiten und kommunizieren." },
+    { "term": "ASCII-Code", "definition": "Zeichencode zur Darstellung von Zeichenketten im Computer." },
+    { "term": "Bandbreite", "definition": "Maximale Menge von Daten, die in einer bestimmten Zeit übertragen werden kann (Bit/s)." },
+    { "term": "Durchsatz", "definition": "Tatsächlich übertragene Datenmenge pro Zeitspanne; variiert durch Störungen und weitere Faktoren." },
+    { "term": "Latenz", "definition": "Übertragungsdauer von Daten zwischen zwei Punkten im Netz." },
+    { "term": "Zugangstechnologien", "definition": "Technologien wie ISDN, DSL, VDSL, Glasfaser zur Verbindung mit dem Netzwerk." },
+    { "term": "Download", "definition": "Herunterladen von Daten aus dem Netzwerk zum eigenen Gerät." },
+    { "term": "Upload", "definition": "Hochladen von Daten von einem Gerät ins Netzwerk." },
+    { "term": "Übertragungsmedium", "definition": "Physikalischer Träger für Datensignale, z.B. Kupferkabel, Glasfaser oder Funkwellen." }
+  ]
+}

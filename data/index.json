@@ -1,0 +1,84 @@
+{
+  "subjects": [
+    {
+      "name": "Webtechnik (HTML)",
+      "folders": {
+        "quiz": "Webtechnik_HTML/quiz",
+        "material": "Webtechnik_HTML/material",
+        "zusammenfassungen": "Webtechnik_HTML/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Netzwerktechnik",
+      "folders": {
+        "quiz": "Netzwerktechnik/quiz",
+        "material": "Netzwerktechnik/material",
+        "zusammenfassungen": "Netzwerktechnik/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Anwendungsentwicklung C++",
+      "folders": {
+        "quiz": "Anwendungsentwicklung_CPP/quiz",
+        "material": "Anwendungsentwicklung_CPP/material",
+        "zusammenfassungen": "Anwendungsentwicklung_CPP/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Anwendungsentwicklung SQL",
+      "folders": {
+        "quiz": "Anwendungsentwicklung_SQL/quiz",
+        "material": "Anwendungsentwicklung_SQL/material",
+        "zusammenfassungen": "Anwendungsentwicklung_SQL/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Deutsch",
+      "folders": {
+        "quiz": "Deutsch/quiz",
+        "material": "Deutsch/material",
+        "zusammenfassungen": "Deutsch/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Mathematik",
+      "folders": {
+        "quiz": "Mathematik/quiz",
+        "material": "Mathematik/material",
+        "zusammenfassungen": "Mathematik/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Betriebssysteme",
+      "folders": {
+        "quiz": "Betriebssysteme/quiz",
+        "material": "Betriebssysteme/material",
+        "zusammenfassungen": "Betriebssysteme/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Englisch",
+      "folders": {
+        "quiz": "Englisch/quiz",
+        "material": "Englisch/material",
+        "zusammenfassungen": "Englisch/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Politik und Gesellschaft",
+      "folders": {
+        "quiz": "Politik_und_Gesellschaft/quiz",
+        "material": "Politik_und_Gesellschaft/material",
+        "zusammenfassungen": "Politik_und_Gesellschaft/zusammenfassungen"
+      }
+    },
+    {
+      "name": "Computersysteme",
+      "folders": {
+        "quiz": "Computersysteme/quiz",
+        "material": "Computersysteme/material",
+        "zusammenfassungen": "Computersysteme/zusammenfassungen"
+      }
+    }
+  ]
+}

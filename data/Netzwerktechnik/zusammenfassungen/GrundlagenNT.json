@@ -1,0 +1,24 @@
+{
+  "title": "Grundlagen Netzwerktechnik",
+  "date": "16.09.2025",
+  "summaryText": "Ein Netzwerk ist die Verbindung von mindestens zwei Computersystemen (Hosts) über ein Übertragungsmedium wie Kabel oder Funk. Einfache Peer-to-Peer-Netzwerke verbinden gleichberechtigte Rechner, die gemeinsam Ressourcen nutzen können. Komplexere Systeme mit mehreren Teilnehmern verwenden Server-Client-Strukturen, bei denen der Server zentral Ressourcen bereitstellt und die Clients diese nutzen. Jede Netzwerkinstallation basiert auf einer bestimmten Topologie, also der spezifischen Anordnung der Geräte und Verbindungen. Topologien beeinflussen Verwaltung, Performance, Sicherheit und Kosten und sind ein wichtiger Bestandteil bei der Planung. Bekannte Netzwerktopologien sind Linie, Bus, Ring, Stern, Baum, vermascht und vollvermascht, jede mit eigenen Vor- und Nachteilen. Hosts sind die Systeme im Netzwerk, oft Computer oder moderne Peripheriegeräte. 'Internet of Things' beschreibt Geräte (Things), die auch mit reduziertem Hardwareumfang per Kabel oder Funk Teil eines Netzwerks werden können. Netzwerktypen unterscheiden sich nach Reichweite: PAN (Personal Area Network), LAN (Local Area Network), WAN (Wide Area Network) und GAN (Global Area Network), wobei z.B. das Internet als GAN gilt.",
+  "glossar": [
+    {"term": "Netzwerk", "definition": "Verbindung von mindestens zwei Computersystemen (Hosts) über ein Übertragungsmedium zur gemeinsamen Nutzung von Ressourcen."},
+    {"term": "Host", "definition": "Computersystem mit Betriebssystem, das Teil eines Netzwerks ist und Dienste anbieten oder nutzen kann."},
+    {"term": "Peer-to-Peer-Netzwerk", "definition": "Netzwerktyp, bei dem alle Rechner gleichberechtigt sind und direkt miteinander kommunizieren."},
+    {"term": "Server-Client-Netzwerk", "definition": "Netzwerkstruktur, bei der ein zentraler Server Ressourcen oder Dienste für mehrere Clients bereitstellt."},
+    {"term": "Netzwerktopologie", "definition": "Die physikalische und logische Struktur, wie Geräte und Leitungen in einem Netzwerk angeordnet und verbunden sind."},
+    {"term": "Linien-Topologie", "definition": "Alle Hosts sind entlang einer Linie miteinander verbunden. Fällt ein Host aus, ist die Verbindung unterbrochen."},
+    {"term": "Bus-Topologie", "definition": "Alle Hosts greifen auf ein gemeinsames Übertragungsmedium zu. Es kann zu Kollisionen und schlechter Datenrate kommen."},
+    {"term": "Ring-Topologie", "definition": "Hosts sind in einem geschlossenen Ring verbunden. Netzwerk kann als Bus weiterbetrieben werden, falls ein Host ausfällt."},
+    {"term": "Stern-Topologie", "definition": "Alle Hosts sind mit einem zentralen Knoten verbunden. Zentrale Belastung kann die Übertragungsrate verschlechtern."},
+    {"term": "Baum-Topologie", "definition": "Erweiterte Stern-Struktur mit einer hierarchisch verzweigten Anordnung, oft in größeren Netzen."},
+    {"term": "Vermaschte Topologie", "definition": "Jeder Host ist mit einem oder mehreren anderen verbunden; es existiert immer ein Weg zwischen allen Hosts."},
+    {"term": "Vollvermaschte Topologie", "definition": "Jeder Host ist mit jedem anderen direkt verbunden. Sehr ausfallsicher, aber hoher Kostenaufwand."},
+    {"term": "Internet of Things (IoT)", "definition": "Vernetzung von vielen Geräten mit reduzierter Hardware, die per Kabel oder Funk Daten austauschen können."},
+    {"term": "PAN (Personal Area Network)", "definition": "Sehr kleines Netzwerk für persönliche Endgeräte wie Smartphone und Laptop, z.B. per Bluetooth oder USB."},
+    {"term": "LAN (Local Area Network)", "definition": "Lokales Netzwerk in Haushalt, Schule oder Unternehmen. Meist kabelgebunden oder über WLAN."},
+    {"term": "WAN (Wide Area Network)", "definition": "Großflächiges Netz über Länder oder Kontinente. Mehrere LANs oder Einzelrechner werden verbunden."},
+    {"term": "GAN (Global Area Network)", "definition": "Weltweites Netzwerk, z.B. das Internet, das verschiedenste Netzwerke und Rechner global verknüpft."}
+  ]
+}

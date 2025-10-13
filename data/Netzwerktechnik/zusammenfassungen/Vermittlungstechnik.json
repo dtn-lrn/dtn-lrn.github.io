@@ -1,0 +1,15 @@
+{
+  "title": "Vermittlungstechnik",
+  "date": "05.10.2025",
+  "summaryText": "Die Vermittlungstechnik sorgt im Kommunikationssystem dafür, dass ein Übertragungsweg zwischen Sender und Empfänger hergestellt wird. Die klassische Leitungsvermittlung baut dazu eine feste Verbindung für die Dauer der Sitzung auf; die Bandbreite steht durchgehend zur Verfügung. Dieses Prinzip wurde vor allem im klassischen Telefonnetz verwendet, ist aber durch die flexiblere Paketvermittlung im Datennetz fast vollständig abgelöst. Bei der Paketvermittlung werden Daten in einzelne Pakete zerlegt, die unabhängig voneinander über das Netzwerk transportiert werden und beim Empfänger wieder zusammengesetzt werden. Dadurch sind hohe Bandbreiten auf Abruf möglich, die Pakete können verschiedene Wege nehmen (was zu variablen Übertragungszeiten führen kann). Im modernen Internet wird fast ausschließlich Paketvermittlung eingesetzt. Eine besondere Technik dabei ist Store-and-Forward, bei der Daten unterwegs zwischengespeichert werden, bis sie weitergeleitet werden können.",
+  "glossar": [
+    { "term": "Vermittlungstechnik", "definition": "Stellt den Übertragungsweg in Kommunikationssystemen zwischen Teilnehmern her." },
+    { "term": "Leitungsvermittlung", "definition": "Bildet eine feste Verbindung zwischen Sender und Empfänger, die für die Gesamtdauer reserviert bleibt (klassisches Telefonnetz)." },
+    { "term": "Paketvermittlung", "definition": "Datentransport in Form einzelner Pakete, die unabhängig voneinander durchs Netz wandern und teilweise unterschiedliche Routen nehmen können." },
+    { "term": "Store-and-Forward", "definition": "Prinzip der Paketvermittlung: Ein Paket wird in der Vermittlungsstelle gespeichert, bis es an den nächsten Knoten weitergeleitet werden kann." },
+    { "term": "Virtuelle Verbindung", "definition": "Eine logische Verbindung bei der Paketvermittlung, bestehend aus einer Abfolge einzelner Datenpakete zwischen Sender und Empfänger." },
+    { "term": "Bandbreite", "definition": "Maximale Übertragungskapazität eines Netzwerks oder Kanals." },
+    { "term": "Latenz", "definition": "Zeitverzögerung bei der Datenübertragung von Quelle zum Ziel." },
+    { "term": "QoS (Quality of Service)", "definition": "Bezeichnet die Dienstgüte, also die Qualität der Verbindung z.B. in Bezug auf Verzögerung, Ausfallsicherheit, Übertragungssicherheit usw." }
+  ]
+}

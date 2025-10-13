@@ -1,0 +1,106 @@
+{
+          "name": "Grundlagen",
+          "date": "16. September 2025",
+          "questions": [
+            {
+              "question": "Was bezeichnet der Begriff 'Netzwerk' in der Informationstechnologie?",
+              "options": [
+                "Verbindung von mindestens zwei Computersystemen über ein Übertragungsmedium",
+                "Nur eine WLAN-Verbindung",
+                "Die Nutzung eines einzelnen Computers",
+                "Ein Internet-Browser"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Wie nennt man ein Netzwerk aus zwei gleichberechtigten Computern?",
+              "options": [
+                "Server-Client-Netzwerk",
+                "Peer-to-Peer-Netzwerk",
+                "Virtual Private Network",
+                "Cloud-Netzwerk"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Netzwerktopologie hat Geräte, die über einen zentralen Host verbunden sind?",
+              "options": [
+                "Bus-Topologie",
+                "Ring-Topologie",
+                "Stern-Topologie",
+                "Linien-Topologie"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Was passiert bei einem Ausfall eines Hosts in einem Ringnetzwerk?",
+              "options": [
+                "Das gesamte Netzwerk fällt aus",
+                "Das Netzwerk kann als Bus weiterbetrieben werden",
+                "Der Host wird automatisch ersetzt",
+                "Der Datenverkehr wird schneller"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was bedeutet der Begriff 'Host' im Netzwerkbereich?",
+              "options": [
+                "Ein Computersystem, das Teil eines Netzwerks ist",
+                "Ein spezielles Kabel",
+                "Ein Router",
+                "Ein Internetanbieter"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Was beschreibt das 'Internet of Things' (IoT)?",
+              "options": [
+                "Große Serverfarmen",
+                "Geräte mit begrenzter Hardware, die vernetzt sind",
+                "Nur Smartphones",
+                "Nur Laptops"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist ein PAN (Personal Area Network)?",
+              "options": [
+                "Ein weltweites Netzwerk",
+                "Ein kleines Netzwerk von persönlichen Geräten wie Smartphones und Tablets",
+                "Das Internet",
+                "Ein Netzwerk mit vielen Servern"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist die gängige Übertragungstechnik eines LAN?",
+              "options": [
+                "Bluetooth",
+                "Ethernet",
+                "Drahtloses USB",
+                "Firewire"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist ein Wide Area Network (WAN)?",
+              "options": [
+                "Ein Netzwerk über großes geografisches Gebiet",
+                "Ein einzelner Computer",
+                "Nur WLAN-Verbindungen",
+                "Ein Heimnetzwerk"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Welche Netzwerktopologie ist keine gängige Topologie?",
+              "options": [
+                "Stern",
+                "Bus",
+                "Ring",
+                "Wolke"
+              ],
+              "correct": 3
+            }
+          ]
+        }

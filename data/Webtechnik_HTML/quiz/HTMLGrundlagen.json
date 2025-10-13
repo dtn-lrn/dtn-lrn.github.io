@@ -1,0 +1,56 @@
+{
+          "name": "HTML Grundlagen",
+          "date": "10. Oktober 2025",
+          "questions": [
+            {
+              "question": "Welches HTML-Element wird verwendet, um eine Überschrift der höchsten Ebene zu erstellen?",
+              "options": ["<title>", "<h1>", "<header>", "<heading>"],
+              "correct": 1
+            },
+            {
+              "question": "Welches HTML-Element wird benutzt, um einen Absatz zu markieren?",
+              "options": ["<paragraph>", "<text>", "<p>", "<line>"],
+              "correct": 2
+            },
+            {
+              "question": "Welches HTML-Tag wird verwendet, um einen Link zu erstellen?",
+              "options": ["<a>", "<link>", "<href>", "<url>"],
+              "correct": 0
+            },
+            {
+              "question": "Welches Attribut gibt die Zieladresse eines Links an?",
+              "options": ["src", "href", "link", "url"],
+              "correct": 1
+            },
+            {
+              "question": "Welche HTML-Tags werden zur Darstellung eines Bildes benutzt?",
+              "options": ["<img>", "<pic>", "<image>", "<src>"],
+              "correct": 0
+            },
+            {
+              "question": "Welches Attribut wird verwendet, um Alternativtext für ein Bild bereitzustellen?",
+              "options": ["src", "alt", "title", "description"],
+              "correct": 1
+            },
+            {
+              "question": "Wie beginnt ein HTML-Dokument?",
+              "options": ["<head>", "<html>", "<start>", "<body>"],
+              "correct": 1
+            },
+            {
+              "question": "Welches Element umschließt den sichtbaren Inhalt einer Webseite?",
+              "options": ["<body>", "<main>", "<page>", "<content>"],
+              "correct": 0
+            },
+            {
+              "question": "Welches Tag wird für einen Zeilenumbruch benutzt?",
+              "options": ["<break>", "<br>", "<lb>", "<line>"],
+              "correct": 1
+            },
+            {
+              "question": "Wie wird ein HTML-Kommentar geschrieben?",
+              "options": ["<comment>Dies ist ein Kommentar</comment>", "// Dies ist ein Kommentar", "<!-- Dies ist ein Kommentar -->", "# Dies ist ein Kommentar"],
+              "correct": 2
+            }
+          ] 
+        }

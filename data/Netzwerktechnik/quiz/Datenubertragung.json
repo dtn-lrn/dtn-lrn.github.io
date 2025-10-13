@@ -1,0 +1,66 @@
+{
+          "name": "Datenübertragung",
+          "date": "21. September 2025",
+          "questions": [
+            {
+              "question": "Was versteht man unter einem Bit?",
+              "options": [
+                "Die größte Datenmenge",
+                "Die kleinste Informationseinheit mit Wert 0 oder 1",
+                "Ein spezieller Kabeltyp",
+                "Ein Datenübertragungsprotokoll"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Mit welcher Technik werden Daten in Netzwerken meist übertragen?",
+              "options": [
+                "Bluetooth",
+                "Lichtimpulse und elektrische Signale",
+                "Soundwellen",
+                "Magnetische Induktion"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was beschreibt die Bandbreite in der Netzwerktechnik?",
+              "options": [
+                "Die maximale Datenmenge, die in einer Sekunde übertragen werden kann",
+                "Die Zeit, die ein Paket für den Weg braucht",
+                "Die Anzahl der Geräte im Netzwerk",
+                "Die Größe des Netzwerks in Kilometern"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Was bezeichnet die Latenzzeit?",
+              "options": [
+                "Die Geschwindigkeit der Datenübertragung",
+                "Die Verzögerung bei der Übertragung von Daten von Punkt zu Punkt",
+                "Die Dauer einer Datenaufnahme",
+                "Die Menge an übertragenen Daten"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wie lange dauert die Übertragung einer 100 MB Datei mit einer ISDN-Verbindung (128 Kbit/s)?",
+              "options": [
+                "Ca. 10 Sekunden",
+                "Ca. 2 Stunden",
+                "Ca. 17 Minuten",
+                "Ca. 11 Stunden"
+              ],
+              "correct": 3
+            },
+            {
+              "question": "Wie kann man die Übertragungsgeschwindigkeit bei einem Reiter, der eine DVD transportiert, berechnen?",
+              "options": [
+                "Videoauflösung durch Pferdegeschwindigkeit",
+                "Dateigröße durch Zeit, die berechnet wurde",
+                "Kilometer pro Stunde mal Dateigröße",
+                "Kilometer mal Reitgeschwindigkeit"
+              ],
+              "correct": 1
+            }
+          ]
+        }

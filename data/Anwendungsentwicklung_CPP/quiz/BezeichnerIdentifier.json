@@ -1,0 +1,51 @@
+{
+          "name": "Bezeichner & Identifier",
+          "date": "30. September 2025",
+          "questions": [
+            {
+              "question": "Welche Zeichen darf ein gültiger Bezeichner in C++ am Anfang enthalten?",
+              "options": [
+                "Jede Ziffer",
+                "Buchstabe, Unterstrich oder universal-character-name",
+                "Sonderzeichen wie #, $",
+                "Leerzeichen"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Dürfen Schlüsselworte wie \"int\" als Variablenname benutzt werden?",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Unterscheiden C++ Bezeichner zwischen Groß- und Kleinbuchstaben?",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Welcher der folgenden Namen ist kein gültiger Bezeichner?",
+              "options": [
+                "1double",
+                "double1",
+                "_double",
+                "in_case_7"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Was sind gültige Trennzeichen in C++?",
+              "options": [
+                "Leerzeichen, Tabulator, Zeilenwechsel",
+                "Komma, Semikolon",
+                "Doppelpunkt"
+              ],
+              "correct": 0
+            }
+          ]
+        }
