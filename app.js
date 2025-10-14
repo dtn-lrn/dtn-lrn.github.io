@@ -33,10 +33,10 @@ function verifyCode() {
     hideLogin();
     showSubjects();
   } else {
-    document.cookie = ACCESS_COOKIE + "=1; max-age=86400; path=/";
-    hideLogin();
-    showSubjects();
-    //document.getElementById('loginError').textContent = "Falscher Code!";
+    //document.cookie = ACCESS_COOKIE + "=1; max-age=86400; path=/";
+    //hideLogin();
+    //showSubjects();
+    document.getElementById('loginError').textContent = "Falscher Code!";
   }
   
  document.cookie = ACCESS_COOKIE + "=1; max-age=86400; path=/";
