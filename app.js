@@ -59,6 +59,7 @@ function isQuestionValid(q) {
 
 // Start-Fächerseite
 function showSubjects() {
+  hideLogin();
   app.innerHTML = `
     <div class="section-title">BFSI</div>
     <div class="subjects-section-title">Fächer auswählen</div>
