@@ -338,3 +338,31 @@ window.showSummaryFile = async function(jsonPath) {
     app.innerHTML = '<div style="text-align:center;color:#faa; padding:1rem;">Zusammenfassung konnte nicht geladen werden</div>';
   }
 }
+
+window.showChangelog = async function() {
+  let clData = [];
+  try {
+    const r = await fetch('data/changelog.json');
+    clData = r.ok ? await r.json() : [];
+  } catch {}
+  const clList = document.getElementById('changelogList');
+  if (!clData.length) {
+    clList.innerHTML = "<div style='text-align:center;color:#faa;'>Kein Changelog vorhanden.</div>";
+  } else {
+    clList.innerHTML = clData.map(entry => `
+      <div style="margin-bottom:1.2em;">
+        <div style="font-weight:700;color:#92faff;font-size:1.01em;margin-bottom:.19em;">${entry.date}</div>
+        <ul style="margin:0 0 .3em 1.15em;padding:0;">
+          ${entry.changes.map(txt => `<li>${txt}</li>`).join('')}
+        </ul>
+      </div>
+    `).join('');
+  }
+  document.getElementById('changelogOverlay').style.display = 'flex';
+};
+window.closeChangelog = function() {
+  document.getElementById('changelogOverlay').style.display = 'none';
+};
+window.chClose = function(e) {
+  if(e.target.id==='changelogOverlay') closeChangelog();
+};
