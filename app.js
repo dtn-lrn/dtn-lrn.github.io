@@ -27,15 +27,18 @@ function showLogin() {
 function hideLogin() { document.getElementById('loginOverlay').style.display = 'none'; }
 function verifyCode() {
   const input = document.getElementById('loginCodeInput').value.trim();
-  /*
+
   if (input === LOGIN_CODE) {
     document.cookie = ACCESS_COOKIE + "=1; max-age=86400; path=/";
     hideLogin();
     showSubjects();
   } else {
-    document.getElementById('loginError').textContent = "Falscher Code!";
+    document.cookie = ACCESS_COOKIE + "=1; max-age=86400; path=/";
+    hideLogin();
+    showSubjects();
+    //document.getElementById('loginError').textContent = "Falscher Code!";
   }
-  */
+  
  document.cookie = ACCESS_COOKIE + "=1; max-age=86400; path=/";
   hideLogin();
   showSubjects();
@@ -44,7 +47,7 @@ function checkAccess() {
   return document.cookie.includes(ACCESS_COOKIE + "=1");
 }
 verifyCode();
-//document.getElementById('loginBtn').onclick = verifyCode;
+document.getElementById('loginBtn').onclick = verifyCode;
 document.getElementById('loginCodeInput').onkeydown = e => { if (e.key === 'Enter') verifyCode(); };
 
 // Index laden und App initialisieren
