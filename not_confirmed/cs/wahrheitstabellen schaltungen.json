@@ -1,0 +1,81 @@
+{
+  "name": "Wahrheitstabellen & Schaltungen (3 Eingänge)",
+  "date": "14.10.2025",
+  "questions": [
+    {
+      "question": "Wie viele Zeilen hat eine Wahrheitstabelle für drei Eingänge (A,B,C)?",
+      "options": ["4", "6", "8", "16"],
+      "correct": 2
+    },
+    {
+      "question": "Angenommen Z1 = A UND B. Für A=1, B=0 gilt:",
+      "options": ["Z1=0", "Z1=1"],
+      "correct": 0
+    },
+    {
+      "question": "Angenommen Z3 = NICHT C. Für C=0 gilt:",
+      "options": ["Z3=0", "Z3=1"],
+      "correct": 1
+    },
+    {
+      "question": "Angenommen Q = Z1 ODER Z3 mit Z1 = A UND B und Z3 = NICHT C. Für A=1, B=1, C=0 ist Q:",
+      "options": ["0", "1"],
+      "correct": 1
+    },
+    {
+      "question": "Welche Kombination macht ein 3‑Eingangs-ODER-Gatter (A,B,C) zu 0?",
+      "options": ["Nur wenn A=B=C=0", "Immer wenn mindestens ein Eingang 0 ist", "A=1 und B=1", "Wenn genau zwei Eingänge 1 sind"],
+      "correct": 0
+    },
+    {
+      "question": "Welche Aussage trifft auf kombinatorische Logik zu?",
+      "options": [
+        "Ausgänge hängen nur von den aktuellen Eingängen ab",
+        "Ausgänge hängen vom aktuellen Zustand (Speicher) ab",
+        "Sie benötigt Taktflanken",
+        "Sie kann ohne Eingänge arbeiten"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Welche Aussage passt zu sequentieller Logik (z. B. Latch/Speicher)?",
+      "options": [
+        "Kein Zustand, nur Eingänge relevant",
+        "Zustand (Speicher) beeinflusst Ausgänge",
+        "Nur rein kombinatorische Gatter",
+        "Hat keine Rückkopplungen"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Vereinfachung: Q = (A UND B) ODER (A UND C) ist äquivalent zu …",
+      "options": [
+        "A UND (B ODER C)",
+        "(A ODER B) UND C",
+        "A ODER (B UND C)",
+        "NICHT (B ODER C)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Welche Bezeichnung passt zu einer 1:n‑Beziehung in Schalt- bzw. Signalplänen/Tabellen?",
+      "options": [
+        "Ein Eingang steuert mehrere Folgesignale",
+        "Mehrere Eingänge steuern einen Ausgang",
+        "Kein Zusammenhang",
+        "Nur mit XOR möglich"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Welche Reihenfolge listet alle 3‑Bit‑Kombinationen vollständig auf (eine mögliche Ordnung)?",
+      "options": [
+        "000,001,010,011,100,101,110,111",
+        "111,000,010,011,001,100,110,101",
+        "000,010,100,001,011,101,110,111",
+        "000,100,010,001,011,101,110,111"
+      ],
+      "correct": 0
+    }
+  ]
+}

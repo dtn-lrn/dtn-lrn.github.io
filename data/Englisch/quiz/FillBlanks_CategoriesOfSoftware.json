@@ -1,0 +1,36 @@
+{
+  "name": "Categories of Software – Fill in the blanks",
+  "date": "22.09.2025",
+  "questions": [
+    {
+      "question": "The ______ software manages the computer.",
+      "options": ["application", "system", "utility", "presentation"],
+      "correct": 1
+    },
+    {
+      "question": "Operating systems contain ______ for managing communications, security, etc.",
+      "options": ["utilities", "spreadsheets", "graphics", "databases"],
+      "correct": 0
+    },
+    {
+      "question": "A presentation program is an example of the ______ category of software.",
+      "options": ["system", "utility", "database", "applications"],
+      "correct": 3
+    },
+    {
+      "question": "GUIs are ______-based software.",
+      "options": ["graphics", "text", "voice", "database"],
+      "correct": 0
+    },
+    {
+      "question": "An ______ ______ controls all activities within a computer system.",
+      "options": ["application program", "utility pack", "operating system", "web browser"],
+      "correct": 2
+    },
+    {
+      "question": "You get the complete documentation only after having paid the ______ ______.",
+      "options": ["registration fee", "license cost", "trial period", "support fee"],
+      "correct": 0
+    }
+  ]
+}

@@ -2,17 +2,18 @@
   {
     "date": "14.10.2025",
     "changes": [
-      "Changelog-Button hinzugefügt",
-      "Changelog mit Einträgen",
-      "Bugfix: Fehlermeldungen beim Quiz-Laden"
+        "2 Englisch Quizze hinzugefügt",
+        "Changelog-Button hinzugefügt",
+        "Changelog mit Einträgen",
+        "Bugfix: Fehlermeldungen beim Quiz-Laden"
     ]
   },
   {
     "date": "13.10.2025",
     "changes": [
-      "Zusammenfassungen (ZF) Tab für alle Fächer",
-      "Neue Datenstruktur",
-      "Gesamte Webseite erstellt und Datensätze hinzugefügt"
+        "Zusammenfassungen (ZF) Tab für alle Fächer",
+        "Neue Datenstruktur",
+        "Gesamte Webseite erstellt und Datensätze hinzugefügt"
     ]
   }
 ]
