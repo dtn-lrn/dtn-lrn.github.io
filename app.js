@@ -45,8 +45,9 @@ document.getElementById('loginCodeInput').onkeydown = e => { if (e.key === 'Ente
 // Index laden und App initialisieren
 fetch('data/index.json').then(r => r.json()).then(data => {
   appData = data;
-  if (!checkAccess()) showLogin();
-  else showSubjects();
+  showSubjects();
+  //if (!checkAccess()) showLogin();
+  //else showSubjects();
 }).catch(() => {
   app.innerHTML = "<div style='padding:2em; text-align:center; color:#faa;'>Fehler beim Laden der Daten.</div>";
 });
