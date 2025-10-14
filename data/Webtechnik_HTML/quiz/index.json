@@ -1,4 +1,5 @@
 [
-  { "name": "CSS Grundlagen", "date": "13.10.2025", "filename": "CSSGrundlagen.json" },
+  { "name": "Block-Elemente", "date": "14.10.2025", "filename": "BlockElemente.json" },
+  { "name": "CSS Grundlagen", "date": "14.10.2025", "filename": "CSSGrundlagen.json" },
   { "name": "HTML Grundlagen", "date": "10.10.2025", "filename": "HTMLGrundlagen.json" }
 ]

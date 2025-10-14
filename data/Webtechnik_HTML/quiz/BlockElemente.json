@@ -1,0 +1,146 @@
+{
+  "name": "Block-Elemente",
+  "date": "14.10.2025",
+  "questions": [
+    {
+      "question": "Was ist das Box-Modell in CSS?",
+      "options": [
+        "Eine rechnerische Methode zur Berechnung von Farben",
+        "Das Schema, wie Breite, Höhe, Rand und Abstände von Elementen auf Webseiten berechnet werden",
+        "Ein Framework für Serverseitige Logik",
+        "Ein JavaScript-Bibliothek zum Zeichnen von Boxen"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Welche HTML-Elemente sind typische Block-Elemente?",
+      "options": [
+        "span, em, strong",
+        "div, p, article, main, aside, h1",
+        "img, br, input",
+        "script, style, head"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Was macht 'margin' im CSS-Box-Modell?",
+      "options": [
+        "Es definiert den Abstand zum Nachbarelement (Außenabstand)",
+        "Es gestaltet den Hintergrund",
+        "Es legt die Schriftart fest",
+        "Es steuert die horizontale Zentrierung"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Wie kann man ein Block-Element horizontal zentrieren?",
+      "options": [
+        "text-align: center;",
+        "margin: auto; mit fester Breite",
+        "padding: auto;",
+        "border: 0 auto;"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Was ist der Zweck von padding im Box-Modell?",
+      "options": [
+        "Innenabstand zwischen Inhalt und Rahmen",
+        "Farbe des Elements",
+        "Randdicke",
+        "Positionierung"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Mit welcher Eigenschaft wird der Rahmen (border) eines Block-Elements gesetzt?",
+      "options": [
+        "frame",
+        "outline",
+        "border",
+        "line"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Welche Eigenschaft zentriert ein Block-Element mit fester Breite mittig?",
+      "options": [
+        "margin-left:auto; margin-right:auto;",
+        "padding: 50%;",
+        "float: center;",
+        "text-align:justify;"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Was passiert wenn man nur 'margin: 10px;' angibt?",
+      "options": [
+        "Alle Außenabstände werden auf 10px gesetzt",
+        "Nur margin-top und margin-bottom werden gesetzt",
+        "Nur margin-left und margin-right werden gesetzt",
+        "Keine Angabe ist gültig"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Wie kann man mit margin mehrere Werte auf einmal setzen (Short-Hand)?",
+      "options": [
+        "margin: alle;",
+        "margin: oben rechts unten links;",
+        "margin: top-right-bottom-left;",
+        "margin: 10px 15px;"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Welche Angabe setzt oben/unten und rechts/links aufs gleiche Wertpaar?",
+      "options": [
+        "margin: 5px 10px;",
+        "margin: 5px 10px 5px 10px;",
+        "margin: 0 10px 0 10px;",
+        "margin: all 10px;"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein Kennzeichen aller Block-Elemente?",
+      "options": [
+        "Sie beginnen immer auf einer neuen Zeile",
+        "Sie lassen sich nicht formatieren",
+        "Sie sind immer inline",
+        "Sie können keine Breite haben"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Für was steht die Eigenschaft 'margin-right'?",
+      "options": [
+        "Innenabstand rechts",
+        "Rahmenstärke rechts",
+        "Außenabstand rechts",
+        "Schriftgröße rechts"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Welche Einstellung sorgt für einen Abstand von 5px oben, 10px rechts, 15px unten, 20px links?",
+      "options": [
+        "margin: 5px 15px 10px 20px;",
+        "margin: 5px 20px 15px 10px;",
+        "margin: top right left bottom;",
+        "margin: 5px 10px 15px 20px;"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Wie funktioniert margin: 10px 20px; ?",
+      "options": [
+        "10px oben/unten, 20px rechts/links",
+        "10px vorne/hinten, 20px seitlich",
+        "20px oben und unten, 10px links und rechts",
+        "Nur rechts und links"
+      ],
+      "correct": 0
+    }
+  ]
+}
