@@ -38,6 +38,7 @@ function verifyCode() {
 function checkAccess() {
   return document.cookie.includes(ACCESS_COOKIE + "=1");
 }
+verifyCode();
 document.getElementById('loginBtn').onclick = verifyCode;
 document.getElementById('loginCodeInput').onkeydown = e => { if (e.key === 'Enter') verifyCode(); };
 
